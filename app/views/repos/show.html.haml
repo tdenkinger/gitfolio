@@ -1,2 +1,11 @@
-%h1= @user
-%h2= @repos
+#header
+  %h1= @user
+
+#content
+  #repository-list
+    %ul
+      - @repos.each do |repo|
+        %li= repo
+
+#footer
+  &copy;2014 by Troy Denkinger
