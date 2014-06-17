@@ -1,4 +1,4 @@
-require_relative "../lib/adapters"
+require_relative "../app/models/adapters"
 
 describe Adapters::Github do
   let(:user){ "tdenkinger"}
