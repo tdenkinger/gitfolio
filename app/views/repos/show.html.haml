@@ -1,7 +1,10 @@
 #header
-  %h1= @user
+  %h1= "Gitfolio: #{@user}"
 
 #content
+  %h2
+    Repositories
+
   #repository-list
     %ul
       - @repos.each do |repo|
