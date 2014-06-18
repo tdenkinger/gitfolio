@@ -16,6 +16,8 @@ gem 'haml-rails'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '~> 3.0.0'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
 end
 
 group :production do
